@@ -48,3 +48,23 @@ Dacă aș continua, aș cere acces la contractul original pentru aceste cazuri, 
 S-a potrivit cumva ca doua firme din eșantionul ales sa aparțin unei categorii de business adică intermediari financiari,administratori de active, de fonduri, de comisioane , unde venitul raportat nu reflectă amploarea reală a activității, ci comisioanele de management sau de performanță încasate (cum am menționat anterior). EQT AB și Apex Group, amândouă au fost cele mai greu de cercetat, pentru EQT AB, activele administrate (aprox.270 mld. €) spun mult mai mult despre mărimea reală decât venitul raportat iar pentru Apex Group, lipsa oricărei declarații publice a forțat o estimare cu bandă de eroare de ±20-25% din surse terță. După părerea mea, având in vedere ca eșantionare nu s-a produs pe o baza teoretică, ci pe o preferință subiectivă a mea si cu toate astea reprezentativitatea acestei categorii este destul de semnificativă, e foarte probabil ca licențiați similari  să reprezinte o parte semnificativă și nedetectată din restul celor 100 de nume. 
 
 Recomandarea mea ar fi ca in cazul acestei categorii sa se găsească o metrica diferită fata de restul categoriilor, bazata pe active administrate, număr angajați, sau volum de tranzacții procesate. 
+
+
+## Partea 5
+
+Doream sa rulez codul in Google Colab pentru ca îmi era mie mai ușor fiind obișnuită cu interfața si cu ce am mai lucrat cu meridian si in internship, doar ca din păcate astăzi Google are niște probleme semnalate si de către alți utilizatori astfel încât va voi arată pas cu pas procesul prin care am trecut in terminal. 
+
+<img width="1390" height="394" alt="Captură de ecran din 2026-09-07 la 12 56 34" src="https://github.com/user-attachments/assets/dcd991ee-3840-4fb2-a622-84b810d5ee24" />
+Am verificat versiunea de Python pe care o aveam pe laptop, mai apoi am instalat pandas. Cele doua avertizări sunt minore si le-am ignorat complet.
+
+<img width="1390" height="395" alt="Captură de ecran din 2026-09-07 la 12 59 00" src="https://github.com/user-attachments/assets/8f05c284-503c-4354-81a8-1ab67dc642dd" />
+Am creat un folder unde am lucrat si acolo am desacrcat fișierele de care aveam nevoie mai departe. 
+
+<img width="1390" height="115" alt="Captură de ecran din 2026-09-07 la 13 00 36" src="https://github.com/user-attachments/assets/76f3af02-1f33-4b9f-beba-1666d09e115e" />
+Arată de unde vine coloana CAEN pentru proxy
+
+<img width="1390" height="212" alt="Captură de ecran din 2026-09-07 la 13 01 46" src="https://github.com/user-attachments/assets/7d26b7de-6e7e-46e9-a095-219d0cb35b51" />
+De ce am ales codul 1048 ca insemand activa. am ales 1048 pentru că procentul lui se încadrează cel mai bine în intervalul 30-45% așteptat pentru firme active, pe baza datelor publice ONRC. Cifra rezultată (1.644.538) e totuși mai mare decât cifra oficială ONRC (1,3 milioane, iulie 2026), ceea ce sugerează că definiția "activă" din acest fișier ar putea fi mai largă decât cea folosită de ONRC în statisticile sale publice
+
+<img width="1390" height="203" alt="Captură de ecran din 2026-09-07 la 13 10 09" src="https://github.com/user-attachments/assets/82a13130-c70e-4b1a-8465-77273b4fae93" />
+Rezultatul final
