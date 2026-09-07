@@ -75,3 +75,13 @@ Rezultatul final
 
 
 
+Cut list: cea mai mare parte din timp a fost pentru pe Partea 2 verificarea manuală, sursă cu sursă, pentru cele 9 firme (la un moment dat voiam sa schimb firmele la care ma blocam) și pe Partea 5 unde am avut trei bug-uri consecutive: quoting CSV pe denumiri cu ghilimele, tip de date pe CUI care se transforma  în float, și duplicate nedetectate în `OD_STARE_FIRMA.csv` . 
+
+
+Unde nu as avea încredere într-un AI? Când căutam date despre firme l-am rugat pe Claude sa caute cu mine, dar probabil fiind versiune gratuită si având limitele lui, iar bazat pe numele atât de general al unor firme încât găseai 10 cu aproximativ o denumire la fel, returna date amestecate. Acolo chiar am stat eu sa ma uit, unele rapoarte poate el nici nu avea cum sa le citească, trebuiau descărcate. 
+
+Cum aș ști că un dataset e greșit la scală, fără nimic complet cu care să compar?
+Aș căuta inconsistențe interne, diferențe mari între rânduri și valori unice pe o cheie care ar trebui unică și aș compara cu orice cifră publică parțială există, chiar dacă nu acoperă tot 
+
+Range-uri pe care le-aș paria, și cum s-ar verifica peste un an
+Aș seta lățimea range-ului după tipul sursei, nu după cât de sigură mă simt, asemanator Pǎrții 2 din proiect. Peste un an, onestitatea se verifică prin rata de acoperire adică dacă am zis "încredere ridicată, ±10%" sa zicem, valoarea reală ar trebui să cadă în interval cam 90% din cazuri dacă rata reală e mult mai mică, am fost prea încrezătoare iar dacă e mult mai mare,prea conservatoare :)
