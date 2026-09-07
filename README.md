@@ -57,14 +57,21 @@ Doream sa rulez codul in Google Colab pentru ca îmi era mie mai ușor fiind obi
 <img width="1390" height="394" alt="Captură de ecran din 2026-09-07 la 12 56 34" src="https://github.com/user-attachments/assets/dcd991ee-3840-4fb2-a622-84b810d5ee24" />
 Am verificat versiunea de Python pe care o aveam pe laptop, mai apoi am instalat pandas. Cele doua avertizări sunt minore si le-am ignorat complet.
 
+
 <img width="1390" height="395" alt="Captură de ecran din 2026-09-07 la 12 59 00" src="https://github.com/user-attachments/assets/8f05c284-503c-4354-81a8-1ab67dc642dd" />
 Am creat un folder unde am lucrat si acolo am desacrcat fișierele de care aveam nevoie mai departe. 
+
 
 <img width="1390" height="115" alt="Captură de ecran din 2026-09-07 la 13 00 36" src="https://github.com/user-attachments/assets/76f3af02-1f33-4b9f-beba-1666d09e115e" />
 Arată de unde vine coloana CAEN pentru proxy
 
+
 <img width="1390" height="212" alt="Captură de ecran din 2026-09-07 la 13 01 46" src="https://github.com/user-attachments/assets/7d26b7de-6e7e-46e9-a095-219d0cb35b51" />
-De ce am ales codul 1048 ca insemand activa. am ales 1048 pentru că procentul lui se încadrează cel mai bine în intervalul 30-45% așteptat pentru firme active, pe baza datelor publice ONRC. Cifra rezultată (1.644.538) e totuși mai mare decât cifra oficială ONRC (1,3 milioane, iulie 2026), ceea ce sugerează că definiția "activă" din acest fișier ar putea fi mai largă decât cea folosită de ONRC în statisticile sale publice
+De ce am ales codul 1048 ca insemand activa. am ales 1048 pentru că procentul lui se încadrează cel mai bine în intervalul 30-45% așteptat pentru firme active, pe baza datelor publice ONRC. Cifra rezultată (1.644.538) e totuși mai mare decât cifra oficială ONRC (1,3 milioane, iulie 2026), ceea ce sugerează că definiția "activă" din acest fișier ar putea fi mai largă decât cea folosită de ONRC în statisticile sale publice, dar bineînțeles ca in cazul in care greșesc pot rula codul si pentru 1084 sa vedem diferențele.
+
 
 <img width="1390" height="203" alt="Captură de ecran din 2026-09-07 la 13 10 09" src="https://github.com/user-attachments/assets/82a13130-c70e-4b1a-8465-77273b4fae93" />
 Rezultatul final
+
+
+
